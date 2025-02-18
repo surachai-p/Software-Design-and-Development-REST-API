@@ -1,4 +1,4 @@
-![{0179B582-4C5C-43B3-8FD6-74BF4835A5F9}](https://github.com/user-attachments/assets/7addb4dc-b2ff-4e18-8218-eaa3a0aa7c7b)S# การพัฒนา REST API สำหรับระบบจองห้องพัก
+การพัฒนา REST API สำหรับระบบจองห้องพัก
 
 ## ทฤษฎีที่เกี่ยวข้อง
 
