@@ -408,7 +408,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![![{64539660-404A-44B1-940E-62F97541F639}](https://github.com/user-attachments/assets/7d880252-f1f1-4325-9d5d-f02ff92dfc67)
+  ![![{E7C576D6-24B8-4759-8C0A-F4FF3A9EAFE8}](https://github.com/user-attachments/assets/2e5619f6-0e96-4fd5-bc76-09fc93cb969c)
+
 
 
 
@@ -419,7 +420,8 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![![Uploading {64539660-404A-44B1-940E-62F97541F639}.png…]()
+  ![![image](https://github.com/user-attachments/assets/a9085c20-3d65-417e-9c63-34a5442b0a2e)
+
 
 
 
