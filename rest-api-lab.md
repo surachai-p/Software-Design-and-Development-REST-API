@@ -98,7 +98,7 @@ npm init -y
 - คำสั่งนี้จะสร้างไฟล์ package.json
 
 2. ตรวจสอบไฟล์ package.json:
-   - เปิดไฟล์ package.json ในโฟลเดอร์โปรเจค
+   - เปิดไฟล์ package.json ในโฟลเดอร์โปรเinit -yจค
    - ควรเห็นข้อมูลพื้นฐานของโปรเจค
 
 #### 1.1.5 การติดตั้ง Dependencies
@@ -367,8 +367,8 @@ npm run dev
    - ในพื้นที่ข้อความ พิมพ์หรือวาง JSON ต่อไปนี้:
    ```json
    {
-       "fullname": "ชื่อนักศึกษา  นามสกุล",
-       "email": "Email นักศึกษา",
+       "fullname": "Piyawit  Pholsri",
+       "email": "67030142@kmitl.ac.th",
        "phone": "0812345678",
        "checkin": "2024-02-20",
        "checkout": "2024-02-22",
@@ -379,7 +379,7 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  ![แทรกรูปการตั้งค่า Postman]![alt text](image.png)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -389,7 +389,7 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการเพิ่มข้อมูล]![alt text](image-1.png)![alt text](image-2.png)![alt text](image-3.png)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
@@ -402,7 +402,7 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด]![alt text](image-5.png)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
