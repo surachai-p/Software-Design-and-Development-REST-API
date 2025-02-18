@@ -380,7 +380,8 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![![image](https://github.com/user-attachments/assets/519af33b-c45c-4519-8df6-a3703addc4f3)
+  ![![image](https://github.com/user-attachments/assets/f43ad583-db0b-4cbf-a15b-d9173d8817ac)
+
 ]
 
 1. การทดสอบ Request:
