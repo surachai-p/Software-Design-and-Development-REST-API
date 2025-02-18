@@ -393,7 +393,8 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![![{48A94C2A-E8D4-4EEA-9483-FCB7A1044301}](https://github.com/user-attachments/assets/71727cce-9718-428c-a7f4-a76b13f92e1a)
+  ![![{AE8DF8A3-7116-41CF-87CE-1710DF5E7A1D}](https://github.com/user-attachments/assets/0d6eb331-4ed2-4c37-aa44-c809c24e2902)
+
 
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
@@ -407,7 +408,9 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![![{64539660-404A-44B1-940E-62F97541F639}](https://github.com/user-attachments/assets/7d880252-f1f1-4325-9d5d-f02ff92dfc67)
+
+
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -416,7 +419,9 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![![Uploading {64539660-404A-44B1-940E-62F97541F639}.png…]()
+
+
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -426,7 +431,8 @@ npm run dev
    - แก้ไขข้อมูลบางส่วนใน JSON
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![![{C32657E8-0E23-42F1-9F7A-A952D475A001}](https://github.com/user-attachments/assets/90396480-13e9-463a-b90d-9c2a75ed279e)
+
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -434,7 +440,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings/1
   
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![![{071EA277-1F09-49BE-B47E-FF62437B03E2}](https://github.com/user-attachments/assets/e986a123-7d71-45c5-9a21-82733a5ab6b3)
+
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
