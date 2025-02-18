@@ -393,8 +393,8 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![https://github.com/116Nithi/Software-Design-and-Development-REST-API/edit/main/rest-api-lab.md
-](path/to/your/image.png)
+  ![![{48A94C2A-E8D4-4EEA-9483-FCB7A1044301}](https://github.com/user-attachments/assets/71727cce-9718-428c-a7f4-a76b13f92e1a)
+
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
