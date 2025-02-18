@@ -380,7 +380,8 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![![image](https://github.com/user-attachments/assets/f43ad583-db0b-4cbf-a15b-d9173d8817ac)
+  ![![{38009CBF-06EB-47ED-A215-964B99876EF6}](https://github.com/user-attachments/assets/3dfa1ef9-ddcd-4442-b83d-e88b44816379)
+)
 
 ]
 
