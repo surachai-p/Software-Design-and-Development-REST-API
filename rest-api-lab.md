@@ -1,4 +1,4 @@
-S# การพัฒนา REST API สำหรับระบบจองห้องพัก
+![{0179B582-4C5C-43B3-8FD6-74BF4835A5F9}](https://github.com/user-attachments/assets/7addb4dc-b2ff-4e18-8218-eaa3a0aa7c7b)S# การพัฒนา REST API สำหรับระบบจองห้องพัก
 
 ## ทฤษฎีที่เกี่ยวข้อง
 
@@ -717,7 +717,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![![{046F1FB0-613F-411F-A544-338ABE836494}](https://github.com/user-attachments/assets/25fdeeb0-1880-4066-9e4a-3f8afa00ebb0)
+
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -726,14 +727,16 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
    - 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+  ![![{C49C2242-0195-4807-BE2C-E61B24B64A83}](https://github.com/user-attachments/assets/12faeafd-9921-4605-b5c1-4fee503423e7)
+
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: GET
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+  ![![{0179B582-4C5C-43B3-8FD6-74BF4835A5F9}](https://github.com/user-attachments/assets/3a8f4633-7f07-416a-a87a-a53699f187fe)
+
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -752,11 +755,13 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![![{4B51D53D-36E2-4F66-A611-B0CF45ACF173}](https://github.com/user-attachments/assets/05bf2931-36a8-41b6-b1bb-36f5423d9e7f)
+
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![![{9D6FB2E2-31B5-423D-8241-C245F65FCA50}](https://github.com/user-attachments/assets/bfadfd7a-32af-4b89-9b24-83377023430d)
+
