@@ -379,7 +379,9 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  ![![สกรีนช็อต 2025-02-18 161827](https://github.com/user-attachments/assets/629de57e-bd7d-4668-bcdd-fde57f28c320)
+]
+)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -389,7 +391,9 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![![สกรีนช็อต 2025-02-18 161827](https://github.com/user-attachments/assets/8d32e2d4-d5df-4ab3-8131-c61b4547ddde)
+]
+)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
@@ -402,7 +406,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![![สกรีนช็อต 2025-02-18 162155](https://github.com/user-attachments/assets/0b119216-03d0-4a93-9019-1b49975727b7)]
+)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -411,7 +416,8 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![![สกรีนช็อต 2025-02-18 162342](https://github.com/user-attachments/assets/1314459e-a121-48e6-967a-5e9c08889f31)]
+)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -421,7 +427,8 @@ npm run dev
    - แก้ไขข้อมูลบางส่วนใน JSON
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![![สกรีนช็อต 2025-02-18 162517](https://github.com/user-attachments/assets/40d7fef3-3e5a-41bc-962d-f74949ca08a7)]
+)
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -429,7 +436,9 @@ npm run dev
    - URL: http://localhost:3000/api/bookings/1
   
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![![สกรีนช็อต 2025-02-18 162654](https://github.com/user-attachments/assets/75840b01-3af5-444a-a47e-82b50ec9afc6)
+]
+)
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
@@ -697,7 +706,9 @@ if __name__ == '__main__':
 python app.py   # กรณีบน macOS ใช้ python3 app.py
 ```
 ผลลัพธ์การรัน API Server ด้วย Python
-![ผลลัพธ์การรัน API Server ด้วย Python](./images/runPythonApp.png)
+![![สกรีนช็อต 2025-02-18 165133](https://github.com/user-attachments/assets/1c414c0e-0a20-4f21-bb20-a2015798cbd4)
+
+
 
 เปิด Postman และสร้าง Collection ใหม่ชื่อ "Hotel Booking API - Python"
 
@@ -720,7 +731,9 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![![สกรีนช็อต 2025-02-18 163738](https://github.com/user-attachments/assets/6c0f9051-e47b-455c-a439-9340f42d2fc2)
+
+
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -729,14 +742,17 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
    - 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+  ![![สกรีนช็อต 2025-02-18 164631](https://github.com/user-attachments/assets/b140d0cd-3e9d-4a0c-a3a1-381b93fb6ab6)
+
+
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: GET
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+  !![สกรีนช็อต 2025-02-18 164723](https://github.com/user-attachments/assets/ae91da87-ccfc-48b8-90b7-352394cbffc4)
+
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -755,11 +771,13 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![![สกรีนช็อต 2025-02-18 164905](https://github.com/user-attachments/assets/14f3325c-d6bd-43f0-afb7-179b112d78e1)
+
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![![สกรีนช็อต 2025-02-18 165211](https://github.com/user-attachments/assets/a225bd97-9bfa-436a-8ce4-988c1cdd1f9c)
+
