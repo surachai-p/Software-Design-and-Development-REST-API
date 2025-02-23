@@ -103,4 +103,4 @@ app.delete('/api/bookings/:id', (req, res) => {
 // เริ่มต้น server
 app.listen(port, () => {
     console.log(`Server กำลังทำงานที่ port ${port}`);
-});d
+});
