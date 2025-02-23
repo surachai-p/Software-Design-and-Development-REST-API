@@ -404,7 +404,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![image](https://github.com/user-attachments/assets/f38fc192-59c1-4d3d-8533-c4f4300ed54e)
+  ![image](https://github.com/user-attachments/assets/5d7412d6-77ac-4859-bd50-f0b77f9cc4c5)
+
 
 
 
