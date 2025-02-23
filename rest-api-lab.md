@@ -391,7 +391,7 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
- ![image](https://github.com/user-attachments/assets/7f9f15b1-4ebe-41a3-91a8-bb53f4243471)
+ ![image](https://github.com/user-attachments/assets/7ad38c8a-ed5a-4e2b-b0b5-4d3f5de191de)
 
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
