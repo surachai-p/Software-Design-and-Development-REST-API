@@ -680,7 +680,7 @@ if __name__ == '__main__':
 python app.py   # กรณีบน macOS ใช้ python3 app.py
 ```
 ผลลัพธ์การรัน API Server ด้วย Python
-![ผลลัพธ์การรัน API Server ด้วย Python](./images/runPythonApp.png)
+![ผลลัพธ์การรัน API Server ด้วย Python]![alt text](image-9.png)
 
 เปิด Postman และสร้าง Collection ใหม่ชื่อ "Hotel Booking API - Python"
 
@@ -703,7 +703,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการเพิ่มข้อมูล]![alt text](image-10.png)![alt text](image-11.png)![alt text](image-12.png)
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -712,14 +712,14 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
    - 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด]![alt text](image-13.png)
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: GET
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการเรียกดูข้อมูล]![alt text](image-14.png)
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -738,11 +738,11 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการแก้ไขข้อมูล]![alt text](image-15.png)
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการลบข้อมูล]![ลบ 1 ไปแล้ว ขออนุญาตลบ 2 แทนครับ](image-16.png)
