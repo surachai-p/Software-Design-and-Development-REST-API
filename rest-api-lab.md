@@ -379,7 +379,8 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![![alt text](image.png)](path/to/your/image.png)
+  
+  ![![alt text](image-13.png)](path/to/your/image.png)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -389,7 +390,7 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![![alt text](image-1.png)](path/to/your/image.png)
+  ![![alt text](image-14.png)](path/to/your/image.png)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
@@ -402,7 +403,7 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![![alt text](image-2.png)](path/to/your/image.png)
+  ![![alt text](image-15.png)](path/to/your/image.png)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -411,7 +412,7 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![![alt text](image-3.png)](path/to/your/image.png)
+  ![![alt text](image-16.png)](path/to/your/image.png)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -421,7 +422,7 @@ npm run dev
    - แก้ไขข้อมูลบางส่วนใน JSON
 
   ### บันทึกผลการทดลอง
-  ![![alt text](image-4.png)](path/to/your/image.png)
+  ![![alt text](image-17.png)](path/to/your/image.png)
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -429,7 +430,7 @@ npm run dev
    - URL: http://localhost:3000/api/bookings/1
   
     ### บันทึกผลการทดลอง
-  ![![alt text](image-5.png)](path/to/your/image.png)
+  ![![alt text](image-18.png)](path/to/your/image.png)
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
