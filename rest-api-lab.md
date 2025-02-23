@@ -62,7 +62,7 @@ Postman เป็นเครื่องมือที่ใช้ในกา
    - เลือกตำแหน่งที่ต้องการสร้างโปรเจค เช่น Documents/projects
 
 3. สร้างโฟลเดอร์ใหม่สำหรับโปรเจค
-   - คลิกขวาในพื้นที่ Explorer ด้านซ้าย (เลือก icon Exploer ที่อยู่มุมบนด้านซ้าย หลังจากนั้น คลิกขวาในพื้นที่ว่าง ๆ ของพื้นที่แสดงชื่อไฟล์)
+   - คลิกขวาในพื้นที่ Explorer ด้านซ้าย (เลือก icon Expแoer ที่อยู่มุมบนด้านซ้าย หลังจากนั้น คลิกขวาในพื้นที่ว่าง ๆ ของพื้นที่แสดงชื่อไฟล์)
    - เลือก New Folder
    - ตั้งชื่อโฟลเดอร์เป็น "hotel-booking-api-node"
    - คลิกเลือกโฟลเดอร์ที่สร้าง
@@ -380,6 +380,7 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  ![alt text](image.png)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -391,8 +392,9 @@ npm run dev
    ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
-  
-
+    ![alt text](image-1.png)
+    ![alt text](image-2.png)
+    ![alt text](image-3.png)
 2. การสร้าง Request อื่นๆ:
    ทำตามขั้นตอนต่อไปนี้สำหรับแต่ละ Request:
 
@@ -403,7 +405,10 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
-
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
    - เลือก Method: GET
@@ -412,7 +417,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
-
+![alt text](image-8.png)
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
    - เลือก Method: PUT
@@ -422,7 +427,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
-
+![alt text](image-9.png)
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
    - เลือก Method: DELETE
@@ -430,7 +435,7 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
-
+![alt text](image-10.png)
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
 
@@ -698,7 +703,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 ```
 ผลลัพธ์การรัน API Server ด้วย Python
 ![ผลลัพธ์การรัน API Server ด้วย Python](./images/runPythonApp.png)
-
+![alt text](image-12.png)
 เปิด Postman และสร้าง Collection ใหม่ชื่อ "Hotel Booking API - Python"
 
 2. สร้าง Request สำหรับทดสอบ:
@@ -721,22 +726,27 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+![alt text](image-11.png)
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
-
+![alt text](image-13.png)
+![alt text](image-14.png)
    b. ดึงข้อมูลทั้งหมด (GET):
    - URL: `http://localhost:5000/api/bookings`
    - Method: GET
    - 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
-
+![alt text](image-15.png)
+![alt text](image-16.png)
+![alt text](image-17.png)
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: GET
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+![alt text](image-18.png)
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -756,10 +766,11 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
-
+![alt text](image-19.png)
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+![alt text](image-20.png)
