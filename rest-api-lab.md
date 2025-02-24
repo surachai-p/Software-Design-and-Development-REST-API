@@ -710,6 +710,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
        "guests": 2
    }
    ```
+   ![image](https://github.com/user-attachments/assets/730ce2fb-7bbd-4035-9366-a132303eb925)
+
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
 
@@ -718,14 +720,15 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    b. ดึงข้อมูลทั้งหมด (GET):
    - URL: `http://localhost:5000/api/bookings`
    - Method: GET
-   - 
+     
+     ![image](https://github.com/user-attachments/assets/3ccf1822-d323-49cf-84b6-63d3c964f73e)
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: GET
-
+     ![image](https://github.com/user-attachments/assets/eeb705c5-b996-40fd-924f-21167fb177d6)
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
 
@@ -745,12 +748,15 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
        "guests": 3
    }
    ```
+![image](https://github.com/user-attachments/assets/c0243d81-2786-473d-8692-f3168e899070)
+
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
+![image](https://github.com/user-attachments/assets/20ff7663-a1f2-48ca-9863-4fe933a65a96)
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
