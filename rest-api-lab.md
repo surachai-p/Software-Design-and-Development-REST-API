@@ -414,6 +414,7 @@ npm run dev
    - เลือก Method: GET
    - URL: http://localhost:3000/api/bookings/1
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
+![image](https://github.com/user-attachments/assets/c86d72e6-92c7-45b5-9b3b-1fb4ce01acd8)
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
@@ -424,6 +425,7 @@ npm run dev
    - URL: http://localhost:3000/api/bookings/1
    - ตั้งค่า Headers และ Body เหมือน Create Booking
    - แก้ไขข้อมูลบางส่วนใน JSON
+![image](https://github.com/user-attachments/assets/b9270621-512c-44ab-9fff-64e1e60a1d48)
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
@@ -432,7 +434,8 @@ npm run dev
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
    - เลือก Method: DELETE
    - URL: http://localhost:3000/api/bookings/1
-  
+  ![image](https://github.com/user-attachments/assets/5764bba0-29de-4886-8805-6998e2a1b2e9)
+
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
 
