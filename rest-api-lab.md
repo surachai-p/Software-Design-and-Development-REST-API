@@ -404,7 +404,8 @@ npm run dev
    - สร้าง Request ใหม่ชื่อ "Get All Bookings"
    - เลือก Method: GET
    - URL: http://localhost:3000/api/bookings
-
+   - 
+![image](https://github.com/user-attachments/assets/0b5c5b4f-3462-4e4f-bced-c6f8dc317e18)
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
 
