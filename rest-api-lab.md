@@ -1,4 +1,4 @@
-# การพัฒนา REST API สำหรับระบบจองห้องพัก
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 33 56" src="https://github.com/user-attachments/assets/b400e364-8a21-4a1c-9c15-1c8cef299d7b" /># การพัฒนา REST API สำหรับระบบจองห้องพัก
 
 ## ทฤษฎีที่เกี่ยวข้อง
 
@@ -730,7 +730,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 30 23" src="https://github.com/user-attachments/assets/01b48e6f-033b-4daa-8781-b77ba4618179" />
+
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -739,14 +740,16 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
    - 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 32 41" src="https://github.com/user-attachments/assets/ae0151ce-e9ae-47d3-8d06-b7646508f347" />
+
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: GET
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 34 28" src="https://github.com/user-attachments/assets/b9080f8a-984f-44c1-8d96-a548e41c19a3" />
+
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -765,11 +768,12 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 35 47" src="https://github.com/user-attachments/assets/d46f0351-6342-4fc9-ab7f-0fe6d2347aca" />
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 36 39" src="https://github.com/user-attachments/assets/897686fb-8f60-40c3-9de3-ff2f670d5f3a" />
