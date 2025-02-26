@@ -430,6 +430,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+![Screenshot 2025-02-26 113051](https://github.com/user-attachments/assets/2244d3e8-5c76-4d4a-bc45-814e0cfc3f84)
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -438,6 +439,7 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+![Screenshot 2025-02-26 113150](https://github.com/user-attachments/assets/918a40a0-7871-443f-af86-be685b3614ec)
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
