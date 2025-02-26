@@ -1,4 +1,4 @@
-# การพัฒนา REST API สำหรับระบบจองห้องพัก
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 33 56" src="https://github.com/user-attachments/assets/b400e364-8a21-4a1c-9c15-1c8cef299d7b" /># การพัฒนา REST API สำหรับระบบจองห้องพัก
 
 ## ทฤษฎีที่เกี่ยวข้อง
 
@@ -379,7 +379,10 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 10 46 09" src="https://github.com/user-attachments/assets/4183b3d6-1034-4fcb-aee8-471d1a7a6963" />
+
+
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -389,7 +392,10 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 10 54 25" src="https://github.com/user-attachments/assets/ab07f40c-2ce3-416a-832e-bc66b18a8b12" />
+
+
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
@@ -402,7 +408,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 10 56 45" src="https://github.com/user-attachments/assets/40527f91-ea68-4230-bb24-5effc1438d4e" />
+
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -411,7 +418,8 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 10 58 53" src="https://github.com/user-attachments/assets/173b40de-9e45-497e-b24d-a0989ba69617" />
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -421,7 +429,8 @@ npm run dev
    - แก้ไขข้อมูลบางส่วนใน JSON
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 02 39" src="https://github.com/user-attachments/assets/51cb8ea9-a4d6-49f8-a50a-640560be46ac" />
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -429,7 +438,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings/1
   
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 03 23" src="https://github.com/user-attachments/assets/3804b2eb-df0c-44eb-833a-cb09b0b61e63" />
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
@@ -720,7 +730,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 30 23" src="https://github.com/user-attachments/assets/01b48e6f-033b-4daa-8781-b77ba4618179" />
+
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -729,14 +740,16 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
    - 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 32 41" src="https://github.com/user-attachments/assets/ae0151ce-e9ae-47d3-8d06-b7646508f347" />
+
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: GET
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 34 28" src="https://github.com/user-attachments/assets/b9080f8a-984f-44c1-8d96-a548e41c19a3" />
+
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -755,11 +768,12 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 35 47" src="https://github.com/user-attachments/assets/d46f0351-6342-4fc9-ab7f-0fe6d2347aca" />
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 36 39" src="https://github.com/user-attachments/assets/897686fb-8f60-40c3-9de3-ff2f670d5f3a" />
