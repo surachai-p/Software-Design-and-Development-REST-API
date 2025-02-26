@@ -736,7 +736,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
-  ![image](https://github.com/user-attachments/assets/954172c0-26ac-4bca-9bb8-ccc225aee044)
+  ![image](https://github.com/user-attachments/assets/d26a3f98-a93e-49ce-88a0-05f36853bb6c)
+
 
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
@@ -747,8 +748,9 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
-![image](https://github.com/user-attachments/assets/14b1ec3f-deb8-412c-9c26-59ec939184d6)
-![image](https://github.com/user-attachments/assets/5641d82d-542d-40b7-8674-5b5639fa0aed)
+![image](https://github.com/user-attachments/assets/1b992eb8-b69b-4cde-abcd-7338a2c051eb)
+![image](https://github.com/user-attachments/assets/b734c12f-a06c-439b-b962-6047493a7ba6)
+
 
 
 
@@ -758,7 +760,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
-  ![image](https://github.com/user-attachments/assets/00fd232b-0688-4f95-858c-a42cc17e251d)
+ ![image](https://github.com/user-attachments/assets/aad1f600-b906-4687-8688-9771589d507d)
 
 
    d. อัพเดตข้อมูล (PUT):
@@ -779,6 +781,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![image](https://github.com/user-attachments/assets/6c249d2a-64d3-41aa-86e6-3d5cd0d0fbda)
+
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
