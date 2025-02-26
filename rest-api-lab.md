@@ -380,7 +380,8 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
-![Screenshot 2025-02-26 111240](https://github.com/user-attachments/assets/ac633b0b-54a7-4b22-84a8-129c6a040c4f)
+![Screenshot 2025-02-26 111640](https://github.com/user-attachments/assets/9ca8ac3d-0bb7-4104-b6ba-09b3a7d7d47c)
+
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -391,6 +392,10 @@ npm run dev
   
    ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+
+  ![Screenshot 2025-02-26 111831](https://github.com/user-attachments/assets/dc9762a0-4f49-44e9-9d15-6e66fddd8108)
+![Screenshot 2025-02-26 111721](https://github.com/user-attachments/assets/e1ba1e99-88e2-422d-92ba-692cdd4582d7)
+
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
