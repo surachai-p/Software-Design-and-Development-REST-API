@@ -379,7 +379,9 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-![Uploading ภาพถ่ายหน้าจอ 2568-02-26 เวลา 10.46.09.png…]()
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 10 46 09" src="https://github.com/user-attachments/assets/4183b3d6-1034-4fcb-aee8-471d1a7a6963" />
+
 
 
 1. การทดสอบ Request:
