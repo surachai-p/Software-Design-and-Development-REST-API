@@ -409,6 +409,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+![Screenshot 2025-02-26 112332](https://github.com/user-attachments/assets/945dac8c-7fa7-45c5-b1eb-23a1bc4484ad)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -418,6 +419,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+![Screenshot 2025-02-26 112519](https://github.com/user-attachments/assets/8feb0b61-d730-4add-a541-95871ab55a7f)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
