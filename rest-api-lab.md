@@ -411,7 +411,7 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](./images/ผลการทดลอง/4.png)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -421,15 +421,16 @@ npm run dev
    - แก้ไขข้อมูลบางส่วนใน JSON
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการแก้ไขข้อมูล](./images/ผลการทดลอง/5.png)
+
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
    - เลือก Method: DELETE
    - URL: http://localhost:3000/api/bookings/1
   
-    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+ ### บันทึกผลการทดลอง
+  ![แทรกรูปผลการลบข้อมูล](./images/ผลการทดลอง/6.png)
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
