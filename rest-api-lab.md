@@ -1,4 +1,4 @@
-# การพัฒนา REST API สำหรับระบบจองห้องพัก
+![Screenshot 2025-02-24 161514](https://github.com/user-attachments/assets/3aea6bf2-1aea-456b-a090-675d2078b4c1)# การพัฒนา REST API สำหรับระบบจองห้องพัก
 
 ## ทฤษฎีที่เกี่ยวข้อง
 
@@ -305,7 +305,8 @@ app.listen(port, () => {
 npm run dev
 ```
 ผลลัพธ์จะแสดง 
-![ผลการรัน Server](./images/run_server.png)
+![ผลการรัน Server](./images/run_server.png)(![Screenshot 2025-02-24 161141](https://github.com/user-attachments/assets/17fde343-1960-4f3e-9bb3-9e41b74fd79d)
+)
   
 ### 1.5 การทดสอบ API ด้วย Postman
 
@@ -335,7 +336,8 @@ npm run dev
    - เลือก "Skip" เมื่อมีหน้าต่างแนะนำฟีเจอร์ต่างๆ
 
 #### 2. การสร้าง Collection และ Request
-![หน้าต่าง Postman](./images/Postman.png)
+![หน้าต่าง Postman](./images/Postman.png)(![Screenshot 2025-02-24 161254](https://github.com/user-attachments/assets/b629db14-7b09-4f3f-92e1-a0f7c7cd0b70)
+)
 
 1. การสร้าง Collection:
    - มองหาแถบด้านซ้ายของ Postman
@@ -379,7 +381,8 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png) (![Screenshot 2025-02-24 160919](https://github.com/user-attachments/assets/043c2d8e-1505-4799-9a9b-de4c7b19d154)
+)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -389,7 +392,8 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)(![Screenshot 2025-02-24 161514](https://github.com/user-attachments/assets/79350fc0-4ce3-437e-894d-a1b2b2ea9520)
+)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
@@ -402,7 +406,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png) (![image](https://github.com/user-attachments/assets/626211c4-f36d-40ee-9c15-93f6d5582054)
+)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -411,7 +416,8 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)(![image](https://github.com/user-attachments/assets/9ea7cb38-b138-4c5b-9666-b8f0470c8944)
+)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
