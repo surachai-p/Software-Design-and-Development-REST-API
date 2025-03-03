@@ -726,7 +726,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
-![image](https://github.com/user-attachments/assets/97be34bc-cae3-403f-8461-9ea72d4daee3)
+![image](https://github.com/user-attachments/assets/182b8cff-85da-434f-8e8b-7c90a7b55d63)
+
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -736,7 +737,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
-![image](https://github.com/user-attachments/assets/803a96f0-406a-46c1-8c8e-0f0f9cfac1e8)
+![image](https://github.com/user-attachments/assets/321e7b45-312c-4c09-9742-ae9e44ce9b2f)
+![image](https://github.com/user-attachments/assets/702b638e-2a0b-4988-9090-3947478fcdb2)
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -772,4 +774,3 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
-![image](https://github.com/user-attachments/assets/702b638e-2a0b-4988-9090-3947478fcdb2)
