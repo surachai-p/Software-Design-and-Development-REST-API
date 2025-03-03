@@ -380,7 +380,8 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
-![image](https://github.com/user-attachments/assets/31671742-be76-4514-842e-dca34489c7ba)
+![image](https://github.com/user-attachments/assets/1d315dfd-8d02-4768-b3a4-2bc1725a45a5)
+
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -392,7 +393,8 @@ npm run dev
    ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
-  ![image](https://github.com/user-attachments/assets/71c5644e-2a3a-43b1-a3e5-00c7103bfdc3)
+![image](https://github.com/user-attachments/assets/1d315dfd-8d02-4768-b3a4-2bc1725a45a5)
+
 
 2. การสร้าง Request อื่นๆ:
    ทำตามขั้นตอนต่อไปนี้สำหรับแต่ละ Request:
@@ -404,6 +406,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+![image](https://github.com/user-attachments/assets/b7fcdbd2-a9af-4025-8e29-70e128a6461d)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -413,7 +416,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
-
+![image](https://github.com/user-attachments/assets/eb9b7cea-bd3f-41db-a407-3871d3af2f71)
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
    - เลือก Method: PUT
@@ -423,7 +426,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
-
+![image](https://github.com/user-attachments/assets/a7fcc025-211e-4376-b30a-7be1f1abb186)
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
    - เลือก Method: DELETE
