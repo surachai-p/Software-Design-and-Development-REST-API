@@ -738,7 +738,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
 ![image](https://github.com/user-attachments/assets/321e7b45-312c-4c09-9742-ae9e44ce9b2f)
-![image](https://github.com/user-attachments/assets/702b638e-2a0b-4988-9090-3947478fcdb2)
+![image](https://github.com/user-attachments/assets/09398fcb-2d96-43a6-9d17-1bfa96f69950)
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
