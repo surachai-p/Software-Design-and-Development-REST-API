@@ -379,6 +379,7 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
+![pm0](https://github.com/user-attachments/assets/df6b3438-4331-4a45-a620-9c97404d578f)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
