@@ -380,6 +380,8 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  <img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 10 48 47" src="https://github.com/user-attachments/assets/3a8875f8-4d37-4318-9c49-0964e31ad6f7" />
+
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -390,7 +392,9 @@ npm run dev
   
    ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  <img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 10 58 46" src="https://github.com/user-attachments/assets/dbbc2c75-67f2-4ebf-9bd4-2b66d7e0dd8a" />
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
+
   
 
 2. การสร้าง Request อื่นๆ:
@@ -403,6 +407,8 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  <img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 08 12" src="https://github.com/user-attachments/assets/7c725f3a-ce1b-41cd-8761-0e2c620c6470" />
+
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -412,6 +418,8 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 10 59 20" src="https://github.com/user-attachments/assets/e8426f3d-0b3d-46ba-852d-4d1f54bf8e78" />
+
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -422,6 +430,8 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  <img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 02 27" src="https://github.com/user-attachments/assets/dd361bb5-2d2d-439a-a159-de2199ed28cb" />
+
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -430,6 +440,8 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 03 32" src="https://github.com/user-attachments/assets/64af6c5e-6b49-4f9d-bfcf-18bca7806bb4" />
+
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
@@ -721,8 +733,15 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  <img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 29 00" src="https://github.com/user-attachments/assets/bfe53a17-b3d2-492d-9c16-689932ad35e9" />
+  <img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 30 07" src="https://github.com/user-attachments/assets/3981666c-bcdc-4c0f-bbca-0895ef69a70a" />
+  <img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 30 37" src="https://github.com/user-attachments/assets/0dfe0e02-aa02-4d9c-97dd-cd86ce3dd21a" />
+
+
+
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
+    
 
    b. ดึงข้อมูลทั้งหมด (GET):
    - URL: `http://localhost:5000/api/bookings`
@@ -730,6 +749,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 32 59" src="https://github.com/user-attachments/assets/daf3674c-4c1a-48b4-a86a-211f99fee9ce" />
+
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -737,6 +758,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+  <img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 34 36" src="https://github.com/user-attachments/assets/64751889-780c-4122-8952-99021811dce1" />
+
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -756,6 +779,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  <img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 36 05" src="https://github.com/user-attachments/assets/bf3ad46f-d392-4ac2-be4b-e4a375e49881" />
+
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -763,3 +788,5 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  <img width="1440" alt="ภาพถ่ายหน้าจอ 2568-02-26 เวลา 11 37 06" src="https://github.com/user-attachments/assets/f4ff982b-c2bf-4a28-a670-2cfc2432ca21" />
+
