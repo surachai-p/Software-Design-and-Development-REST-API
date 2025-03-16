@@ -736,7 +736,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+  ![image](https://github.com/user-attachments/assets/32a8f237-8c3c-44b8-b45b-c97b113cea9b)
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
