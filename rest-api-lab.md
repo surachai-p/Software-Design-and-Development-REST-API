@@ -729,7 +729,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
    - 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+  ![image](https://github.com/user-attachments/assets/5b5b2b87-42e0-44b4-98f3-c871009d6aca)
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
