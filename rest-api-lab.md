@@ -1,4 +1,4 @@
-# การพัฒนา REST API สำหรับระบบจองห้องพัก
+![5](https://github.com/user-attachments/assets/46673563-7eb8-4c48-8250-f8a69b5250dd)# การพัฒนา REST API สำหรับระบบจองห้องพัก
 
 ## ทฤษฎีที่เกี่ยวข้อง
 
@@ -404,6 +404,8 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![2](https://github.com/user-attachments/assets/b372e5e1-5634-49c5-a6ab-3832b4284d8c)
+
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -413,6 +415,8 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![3](https://github.com/user-attachments/assets/a64a52f4-b83d-4650-b7eb-7eb620ff8578)
+
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -423,6 +427,8 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![4](https://github.com/user-attachments/assets/414af945-6fd9-4aa7-800d-8adc83b39fb4)
+
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -431,6 +437,8 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![5](https://github.com/user-attachments/assets/5a5bd223-416d-4fb2-a814-f5aa1e6787fa)
+
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
