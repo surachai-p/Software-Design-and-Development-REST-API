@@ -402,7 +402,7 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![postman3](https://github.com/user-attachments/assets/c7177023-a195-4a8e-a81b-a7da7bb46740)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -411,7 +411,7 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+![postman4](https://github.com/user-attachments/assets/90719be0-b686-40ee-805e-595fbf7183b1)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
