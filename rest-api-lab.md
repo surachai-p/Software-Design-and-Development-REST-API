@@ -429,7 +429,7 @@ npm run dev
    - URL: http://localhost:3000/api/bookings/1
   
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![image](https://github.com/user-attachments/assets/b38f52b2-ce27-4ebe-8cda-280975911fcd)
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
