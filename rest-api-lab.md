@@ -765,4 +765,5 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: DELETE
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+ ![image](https://github.com/user-attachments/assets/48ec495a-954e-47a5-8663-101b8e8a18b1)
+
