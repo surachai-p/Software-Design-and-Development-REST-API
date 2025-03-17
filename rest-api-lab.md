@@ -413,7 +413,7 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![image](https://github.com/user-attachments/assets/e69de4f8-3bcd-4bf2-a101-d22591e67401)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
