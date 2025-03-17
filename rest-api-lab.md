@@ -403,7 +403,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+![image](https://github.com/user-attachments/assets/d66f3277-fc1e-4053-aeef-dc1f869485bd)
+
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
