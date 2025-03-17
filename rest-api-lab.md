@@ -723,8 +723,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
-
+  ![image](https://github.com/user-attachments/assets/712083ad-7d38-47dd-b649-0ce66d652dec)
+  
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
    b. ดึงข้อมูลทั้งหมด (GET):
