@@ -728,6 +728,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
+![image](https://github.com/user-attachments/assets/e5a08d01-ac32-4dfd-a3df-9202b45b1ab8)
 
 
 
@@ -738,6 +739,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
    - 
     ### บันทึกผลการทดลอง
+![image](https://github.com/user-attachments/assets/2213a1c9-76f3-48a7-8e7d-c6d051cafb9b)
 
 
 
@@ -746,6 +748,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
 
     ### บันทึกผลการทดลอง
+![image](https://github.com/user-attachments/assets/a689ffe0-753e-488b-955e-ddd27fa23f76)
 
 
 
@@ -766,6 +769,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
+![image](https://github.com/user-attachments/assets/940fc566-5f35-4262-8afa-c1e37e2200a5)
 
 
 
@@ -775,4 +779,5 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: DELETE
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![image](https://github.com/user-attachments/assets/2293c9f9-40cf-45ce-9e88-52572722137a)
+
