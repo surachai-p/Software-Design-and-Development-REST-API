@@ -306,6 +306,8 @@ npm run dev
 ```
 ผลลัพธ์จะแสดง 
 ![ผลการรัน Server](./images/run_server.png)
+<img width="411" alt="image" src="https://github.com/user-attachments/assets/e0d70118-fa4a-4f2a-a94e-f7f5dd30f39e" />
+
   
 ### 1.5 การทดสอบ API ด้วย Postman
 
@@ -380,6 +382,8 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/c447b36b-76f0-4de5-aaf3-5c78b1d71f14" />
+
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -403,6 +407,8 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/4d899dca-552e-48c8-961a-c1e3807e581b" />
+
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -412,6 +418,8 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/c3e087ec-c43e-4fc1-9c08-01718201bf64" />
+
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -422,6 +430,8 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/72f6849e-fe77-4271-8923-d2151d3d4ec2" />
+
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -430,6 +440,8 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/1fc3d863-76c2-4e58-8f9b-3ea539988bb2" />
+
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
@@ -721,6 +733,12 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/aa016d24-913f-4e5a-b5d6-6f678f65df71" />
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/5e3999a6-d463-43d7-8e1b-9ea4791ff317" />
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/6753e559-f55e-4a34-bd7c-d05ec13f34df" />
+
+
+
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -730,6 +748,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+ <img width="1470" alt="image" src="https://github.com/user-attachments/assets/5a35dc6e-5b25-4f08-b324-fc8872cdd36e" />
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/c7af124c-3745-4824-bf05-bc74b6dadba9" />
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -737,6 +757,10 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/836e745e-59c1-4e16-9d2d-9ef800726ab3" />
+
+
+
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -756,6 +780,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/29d391d5-272b-4cce-aa54-4b56cc50db27" />
+
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -763,3 +789,5 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  <img width="1470" alt="image" src="https://github.com/user-attachments/assets/46ca70fd-e23c-4f39-803f-afa372859c67" />
+
