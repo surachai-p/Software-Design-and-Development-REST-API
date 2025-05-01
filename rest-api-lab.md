@@ -380,6 +380,7 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+![Screenshot 2025-02-18 164928](https://github.com/user-attachments/assets/6907ffc4-ddaa-438f-834c-d18adf634cfb)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
