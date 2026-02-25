@@ -21,7 +21,10 @@ REST (Representational State Transfer) API(Application Programming Interface) �
 3. **Status Codes ที่สำคัญ**
    - 200: OK (สำเร็จ)
    - 201: Created (สร้างสำเร็จ)
-   - 400: Bad Request (คำขอไม่ถูกต้อง)
+   - 204: No Content (สำเร็จ แต่ไม่มีข้อมูลตอบกลับ เช่น การลบข้อมูล)
+   - 400: Bad Request (คำขอไม่ถูกต้อง เช่น ข้อมูลไม่ครบ)
+   - 401: Unauthorized (ยังไม่ได้ยืนยันตัวตน)
+   - 403: Forbidden (ไม่มีสิทธิ์เข้าถึง)
    - 404: Not Found (ไม่พบข้อมูล)
    - 500: Internal Server Error (เซิร์ฟเวอร์ผิดพลาด)
 
@@ -105,10 +108,12 @@ npm init -y
 #### 1.1.5 การติดตั้ง Dependencies
 1. ติดตั้ง Express และ packages ที่จำเป็น:
 ```bash
-npm install express sqlite3 cors body-parser
+npm install express sqlite3 cors
 ```
 - รอจนการติดตั้งเสร็จสิ้น
 - ควรเห็นโฟลเดอร์ node_modules ถูกสร้างขึ้น
+
+> 💡 **หมายเหตุ:** ตั้งแต่ Express เวอร์ชัน 4.16+ เป็นต้นมา ไม่จำเป็นต้องติดตั้ง `body-parser` แยกต่างหากอีกแล้ว เนื่องจาก Express มี `express.json()` ในตัว
 
 2. ติดตั้ง nodemon สำหรับการพัฒนา:
 ```bash
@@ -119,7 +124,6 @@ npm install --save-dev nodemon
 ```json
 {
   "dependencies": {
-    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "sqlite3": "^5.1.7"
@@ -195,18 +199,28 @@ module.exports = db;
 ```javascript
 const express = require('express');
 const cors = require('cors');
-const bodyParser = require('body-parser');
 const db = require('./database');
 
 const app = express();
 const port = 3000;
 
-// Middleware
+// Middleware — ใช้ express.json() แทน body-parser (Express 4.16+)
 app.use(cors());
-app.use(bodyParser.json());
+app.use(express.json());
+
+// ฟังก์ชันตรวจสอบข้อมูลที่จำเป็น
+const validateBookingData = (data) => {
+    const required = ['fullname', 'email', 'phone', 'checkin', 'checkout', 'roomtype', 'guests'];
+    return required.filter(field => !data[field]);
+};
 
 // สร้างการจองใหม่ (Create)
 app.post('/api/bookings', (req, res) => {
+    const missingFields = validateBookingData(req.body);
+    if (missingFields.length > 0) {
+        return res.status(400).json({ error: `กรุณากรอกข้อมูลให้ครบถ้วน: ${missingFields.join(', ')}` });
+    }
+
     const { fullname, email, phone, checkin, checkout, roomtype, guests } = req.body;
     
     const sql = `INSERT INTO bookings (fullname, email, phone, checkin, checkout, roomtype, guests)
@@ -257,6 +271,11 @@ app.get('/api/bookings/:id', (req, res) => {
 
 // อัพเดตข้อมูลการจอง (Update)
 app.put('/api/bookings/:id', (req, res) => {
+    const missingFields = validateBookingData(req.body);
+    if (missingFields.length > 0) {
+        return res.status(400).json({ error: `กรุณากรอกข้อมูลให้ครบถ้วน: ${missingFields.join(', ')}` });
+    }
+
     const { fullname, email, phone, checkin, checkout, roomtype, guests } = req.body;
     
     const sql = `UPDATE bookings 
@@ -309,6 +328,13 @@ npm run dev
 ![ผลการรัน Server](./images/run_server.png)
   
 ### 1.5 การทดสอบ API ด้วย Postman
+
+> 💡 **ทางเลือกสำหรับการทดสอบ API:** นอกจาก Postman แล้ว ยังมีเครื่องมืออื่นที่ใช้ทดสอบ API ได้สะดวกกว่า:
+> - **Thunder Client** — Extension ใน VS Code ที่ใช้ได้เลยโดยไม่ต้องติดตั้งโปรแกรมเพิ่ม ค้นหาใน Extensions (`Ctrl+Shift+X`) พิมพ์ "Thunder Client"
+> - **Bruno** — โปรแกรม Open Source ไม่ต้องสร้างบัญชี ดาวน์โหลดได้ที่ https://www.usebruno.com
+> - **Hoppscotch** — ใช้งานผ่านเว็บได้เลยที่ https://hoppscotch.io
+>
+> หากใช้ Thunder Client ข้ามขั้นตอนการติดตั้ง Postman ได้เลย
 
 #### 1. การติดตั้ง Postman Desktop Application
 
@@ -371,8 +397,8 @@ npm run dev
        "fullname": "ชื่อนักศึกษา  นามสกุล",
        "email": "Email นักศึกษา",
        "phone": "0812345678",
-       "checkin": "2024-02-20",
-       "checkout": "2024-02-22",
+       "checkin": "2026-06-01",
+       "checkout": "2026-06-03",
        "roomtype": "standard",
        "guests": 2
    }
@@ -522,7 +548,7 @@ venv\Scripts\activate     # สำหรับ Windows
 pip install flask flask-cors
 ```
 
-### 2.2 การสร้าง REST API
+### 2.3 การสร้าง REST API
 
 สร้างไฟล์ `app.py`:
 ```python
@@ -537,11 +563,17 @@ CORS(app)
 # ตั้งค่า port ที่แตกต่างจาก Node.js
 PORT = 5000
 
+REQUIRED_FIELDS = ['fullname', 'email', 'phone', 'checkin', 'checkout', 'roomtype', 'guests']
+
 def dict_factory(cursor, row):
     d = {}
     for idx, col in enumerate(cursor.description):
         d[col[0]] = row[idx]
     return d
+
+def validate_booking_data(data):
+    """ตรวจสอบว่าข้อมูลครบถ้วนหรือไม่ คืนค่า list ของ field ที่ขาดหาย"""
+    return [field for field in REQUIRED_FIELDS if not data.get(field)]
 
 def create_table():
         conn = sqlite3.connect('bookings.db')
@@ -558,13 +590,20 @@ def create_table():
         guests INTEGER NOT NULL,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)'''
         c.execute(sql)
+        conn.commit()
+        conn.close()
 
 create_table()
+
 # สร้างการจอง (Create)
 @app.route('/api/bookings', methods=['POST'])
 def create_booking():
     try:
         data = request.json
+        missing = validate_booking_data(data)
+        if missing:
+            return jsonify({'error': f'กรุณากรอกข้อมูลให้ครบถ้วน: {", ".join(missing)}'}), 400
+
         conn = sqlite3.connect('bookings.db')
         conn.row_factory = dict_factory
         c = conn.cursor()
@@ -630,6 +669,10 @@ def get_booking(id):
 def update_booking(id):
     try:
         data = request.json
+        missing = validate_booking_data(data)
+        if missing:
+            return jsonify({'error': f'กรุณากรอกข้อมูลให้ครบถ้วน: {", ".join(missing)}'}), 400
+
         conn = sqlite3.connect('bookings.db')
         conn.row_factory = dict_factory
         c = conn.cursor()
@@ -690,7 +733,7 @@ if __name__ == '__main__':
     app.run(port=PORT, debug=True)
 ```
 
-### 2.3 การทดสอบ Python REST API
+### 2.4 การทดสอบ Python REST API
 
 1. run API Server โดยการพิมพ์คำสั่ง
 
@@ -714,8 +757,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
        "fullname": "ทดสอบ ระบบ Python โดย [ชื่อนักศึกษา]",
        "email": "test.python@example.com",
        "phone": "0898765432",
-       "checkin": "2024-02-25",
-       "checkout": "2024-02-27",
+       "checkin": "2026-06-10",
+       "checkout": "2026-06-12",
        "roomtype": "deluxe",
        "guests": 2
    }
@@ -749,8 +792,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
        "fullname": "ทดสอบ อัพเดต Python โดย [ชื่อนักศึกษา]",
        "email": "update.python@example.com",
        "phone": "0898765432",
-       "checkin": "2024-02-25",
-       "checkout": "2024-02-28",
+       "checkin": "2026-06-10",
+       "checkout": "2026-06-15",
        "roomtype": "suite",
        "guests": 3
    }
