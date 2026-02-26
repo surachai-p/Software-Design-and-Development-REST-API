@@ -146,6 +146,7 @@ npm install --save-dev nodemon
 
 - บันทึกไฟล์ (Ctrl+S หรือ Cmd+S)
 
+
 #### 1.1.6 การสร้างโครงสร้างไฟล์โปรเจค
 1. สร้างไฟล์ใหม่สำหรับฐานข้อมูล:
    - คลิกขวาใน Explorer
@@ -153,7 +154,7 @@ npm install --save-dev nodemon
    - ตั้งชื่อเป็น "database.js"
 
 2. สร้างไฟล์สำหรับ server:
-   - สร้างไฟล์ใหม่ชื่อ "server.js"
+   - สร้างไฟล์ใหม่ชื่อ "database.js"
 
 
 ### 1.2 การสร้างฐานข้อมูล
@@ -332,6 +333,7 @@ npm run dev
 ```
 ผลลัพธ์จะแสดง 
 ![ผลการรัน Server](./images/run_server.png)
+![alt text](1.4.PNG)
   
 ### 1.5 การทดสอบ API ด้วย Postman
 
