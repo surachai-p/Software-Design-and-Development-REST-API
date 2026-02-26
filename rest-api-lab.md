@@ -413,6 +413,7 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+<img width="1913" height="1079" alt="image" src="https://github.com/user-attachments/assets/cea560d0-9558-4da3-9235-265e124dd8bb" />
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -425,6 +426,10 @@ npm run dev
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
+  <img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/398e9c72-a73a-46e8-85e8-1c05e09a1fe4" />
+
+<img width="1920" height="1036" alt="image" src="https://github.com/user-attachments/assets/3e32bd5d-921e-423d-a0d3-71151eb4de0d" />
+
 
 2. การสร้าง Request อื่นๆ:
    ทำตามขั้นตอนต่อไปนี้สำหรับแต่ละ Request:
@@ -436,6 +441,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+<img width="1835" height="977" alt="image" src="https://github.com/user-attachments/assets/87fbc836-2c12-41cf-89db-08bd9916ba6f" />
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -445,6 +451,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+<img width="1916" height="1073" alt="image" src="https://github.com/user-attachments/assets/fb096248-0222-4342-bf17-7b2012724e45" />
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -455,6 +462,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+<img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/4848d302-16ad-41aa-85ce-160862f71c7a" />
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -463,6 +471,7 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+<img width="1920" height="1044" alt="image" src="https://github.com/user-attachments/assets/1d39dfb1-5035-4c4a-93bb-3870d38f0ffa" />
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
