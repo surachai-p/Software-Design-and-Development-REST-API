@@ -1,0 +1,12 @@
+POST http://localhost:3000/api/bookings
+Content-Type: application/json
+
+{
+  "fullname": "Napat Singtui",
+  "email": "68030080@kmitl.ac.th",
+  "phone": "0617571436",
+  "checkin": "2026-26-02",
+  "checkout": "2026-26-02",
+  "roomtype": "standard",
+  "guests": 2
+}
