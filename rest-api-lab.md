@@ -413,6 +413,7 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+<img width="1913" height="1079" alt="image" src="https://github.com/user-attachments/assets/cea560d0-9558-4da3-9235-265e124dd8bb" />
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -425,6 +426,10 @@ npm run dev
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
+  <img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/398e9c72-a73a-46e8-85e8-1c05e09a1fe4" />
+
+<img width="1920" height="1036" alt="image" src="https://github.com/user-attachments/assets/3e32bd5d-921e-423d-a0d3-71151eb4de0d" />
+
 
 2. การสร้าง Request อื่นๆ:
    ทำตามขั้นตอนต่อไปนี้สำหรับแต่ละ Request:
@@ -436,6 +441,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+<img width="1835" height="977" alt="image" src="https://github.com/user-attachments/assets/87fbc836-2c12-41cf-89db-08bd9916ba6f" />
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -445,6 +451,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+<img width="1916" height="1073" alt="image" src="https://github.com/user-attachments/assets/fb096248-0222-4342-bf17-7b2012724e45" />
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -455,6 +462,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+<img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/4848d302-16ad-41aa-85ce-160862f71c7a" />
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -463,6 +471,7 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+<img width="1920" height="1044" alt="image" src="https://github.com/user-attachments/assets/1d39dfb1-5035-4c4a-93bb-3870d38f0ffa" />
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
@@ -747,6 +756,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 ```
 ผลลัพธ์การรัน API Server ด้วย Python
 ![ผลลัพธ์การรัน API Server ด้วย Python](./images/runPythonApp.png)
+<img width="1910" height="1080" alt="image" src="https://github.com/user-attachments/assets/db54e6e0-0b2d-46a2-8d82-f59f0d64d1d5" />
 
 เปิด Postman และสร้าง Collection ใหม่ชื่อ "Hotel Booking API - Python"
 
@@ -770,6 +780,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fa296bd5-b406-4792-98e7-2ecf959089b5" />
+<img width="1901" height="1049" alt="image" src="https://github.com/user-attachments/assets/f3d99394-c2d7-4cc9-9cfa-464556b48be2" />
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -779,6 +791,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+<img width="1920" height="1074" alt="image" src="https://github.com/user-attachments/assets/6243a086-347f-4b45-bb8b-7fcad5776d77" />
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -786,6 +799,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+<img width="1920" height="1033" alt="image" src="https://github.com/user-attachments/assets/384d1111-7bd1-4188-9f4d-9c044fb23694" />
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -805,6 +819,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+<img width="1915" height="1080" alt="image" src="https://github.com/user-attachments/assets/95b6e37d-2a4d-4130-b1c2-629b36e0a87a" />
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -812,3 +827,4 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+<img width="1919" height="1045" alt="image" src="https://github.com/user-attachments/assets/8cf111ee-9d37-4c99-9c65-f1812c5317f7" />
