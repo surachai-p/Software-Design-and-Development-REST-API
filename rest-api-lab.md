@@ -786,6 +786,11 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
 
+  <img width="1919" height="1006" alt="image" src="https://github.com/user-attachments/assets/93e84dea-b446-4a21-9fe9-194d0ca58e6e" />
+
+  <img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/3971be31-65e9-467c-84e3-a5132362fd2d" />
+
+
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
    b. ดึงข้อมูลทั้งหมด (GET):
@@ -801,6 +806,9 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+
+  <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/75385db6-11bb-45b8-8d87-feb435310f94" />
+
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -820,6 +828,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7640fc04-f3ed-4f89-97a7-ce1f8fdf9285" />
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -827,3 +836,4 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/ceed02c0-87aa-4759-aae2-8903cc864143" />
