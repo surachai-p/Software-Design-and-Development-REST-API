@@ -147,6 +147,7 @@ npm install --save-dev nodemon
 
 - บันทึกไฟล์ (Ctrl+S หรือ Cmd+S)
 
+
 #### 1.1.6 การสร้างโครงสร้างไฟล์โปรเจค
 1. สร้างไฟล์ใหม่สำหรับฐานข้อมูล:
    - คลิกขวาใน Explorer
@@ -154,7 +155,7 @@ npm install --save-dev nodemon
    - ตั้งชื่อเป็น "database.js"
 
 2. สร้างไฟล์สำหรับ server:
-   - สร้างไฟล์ใหม่ชื่อ "server.js"
+   - สร้างไฟล์ใหม่ชื่อ "database.js"
 
 
 ### 1.2 การสร้างฐานข้อมูล
@@ -333,6 +334,7 @@ npm run dev
 ```
 ผลลัพธ์จะแสดง 
 ![ผลการรัน Server](./images/run_server.png)
+![alt text](1.4.PNG)
   
 ### 1.5 การทดสอบ API ด้วย Postman
 
@@ -370,6 +372,7 @@ npm run dev
 
 #### 2. การสร้าง Collection และ Request
 ![หน้าต่าง Postman](./images/Postman.png)
+
 
 1. การสร้าง Collection:
    - มองหาแถบด้านซ้ายของ Postman
@@ -413,6 +416,7 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  ![alt text](2.1.PNG)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -436,6 +440,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![alt text](2.2.PNG)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -445,6 +450,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![alt text](2.3.PNG)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -455,6 +461,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![alt text](2.4.PNG)
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -463,6 +470,7 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![alt text](2.5.PNG)
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
@@ -771,6 +779,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![alt text](2.1.1.PNG)
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -780,6 +789,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+  ![alt text](2.1.2.PNG)
+
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -787,7 +798,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
-
+![alt text](2.1.3.PNG)
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: PUT
@@ -806,6 +817,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![alt text](2.1.4.PNG)
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -813,3 +825,4 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![alt text](2.1.6.PNG)
