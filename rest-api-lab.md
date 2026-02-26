@@ -1,7 +1,6 @@
 # การพัฒนา REST API สำหรับระบบจองห้องพัก
 
 ## ทฤษฎีที่เกี่ยวข้อง
-![ผลการทดลอง](รูปภาพการทดลอง/Put.PNG)
 
 ### 1. REST API คืออะไร?
 REST (Representational State Transfer) API(Application Programming Interface) เป็นมาตรฐานในการสร้าง API ที่ใช้ในการสื่อสารระหว่างคอมพิวเตอร์ผ่านโปรโตคอล HTTP โดยมีหลักการสำคัญดังนี้:
