@@ -769,7 +769,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![alt text](image-6.png)
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -778,17 +778,17 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
    - 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+ ![alt text](image-7.png)
 
    c. ดึงข้อมูลตาม ID (GET):
-   - URL: `http://localhost:5000/api/bookings/1`
+   - URL: `http://localhost:5000/api/bookings/6`
    - Method: GET
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+  ![alt text](image-8.png)
 
    d. อัพเดตข้อมูล (PUT):
-   - URL: `http://localhost:5000/api/bookings/1`
+   - URL: `http://localhost:5000/api/bookings/6`
    - Method: PUT
    - Headers: Content-Type: application/json
    - Body (raw JSON):
@@ -804,11 +804,11 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+![alt text](image-9.png)
 
    e. ลบข้อมูล (DELETE):
-   - URL: `http://localhost:5000/api/bookings/1`
+   - URL: `http://localhost:5000/api/bookings/6`
    - Method: DELETE
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![alt text](image-10.png)
