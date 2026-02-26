@@ -372,6 +372,7 @@ npm run dev
 #### 2. การสร้าง Collection และ Request
 ![หน้าต่าง Postman](./images/Postman.png)
 
+
 1. การสร้าง Collection:
    - มองหาแถบด้านซ้ายของ Postman
    - หาหัวข้อ "Collections"
@@ -415,6 +416,7 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  ![alt text](2.1.PNG)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -438,6 +440,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![alt text](2.2.PNG)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -447,6 +450,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![alt text](2.3.PNG)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -457,6 +461,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![alt text](2.4.PNG)
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -465,6 +470,7 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![alt text](2.5.PNG)
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
