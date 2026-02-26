@@ -778,6 +778,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![alt text](2.1.1.PNG)
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -787,6 +788,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+  ![alt text](2.1.2.PNG)
+
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -794,7 +797,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
-
+![alt text](2.1.3.PNG)
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: PUT
@@ -813,6 +816,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![alt text](2.1.4.PNG)
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -820,3 +824,4 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![alt text](2.1.6.PNG)
