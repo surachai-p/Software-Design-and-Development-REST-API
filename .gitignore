@@ -1,0 +1,18 @@
+# --- Python ---
+**/__pycache__/
+**/*.py[cod]
+**/venv/
+**/env/
+
+# --- Node.js ---
+**/node_modules/
+**/package-lock.json
+
+# --- Database ---
+# เราจะไม่ส่งไฟล์ฐานข้อมูลที่มีข้อมูลทดสอบของเราไป
+**/bookings.db
+
+# --- Logs & OS ---
+*.log
+**/.DS_Store
+**/Thumbs.db
