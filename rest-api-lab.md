@@ -326,6 +326,8 @@ npm run dev
 ```
 ผลลัพธ์จะแสดง 
 ![ผลการรัน Server](./images/run_server.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5efb6e12-745a-415e-ab32-074ab1bc1ce1" />
+
   
 ### 1.5 การทดสอบ API ด้วย Postman
 
@@ -407,6 +409,8 @@ npm run dev
      
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/be601b75-ff01-40cc-952e-4b9642b396b3" />
+
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -430,6 +434,9 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  <img width="1093" height="534" alt="image" src="https://github.com/user-attachments/assets/3226f7a8-0d51-4183-92e0-1f392a334c96" />
+  <img width="1086" height="537" alt="image" src="https://github.com/user-attachments/assets/ccb3aad8-313e-4baf-b311-b7f2e62d9f67" />
+  <img width="1072" height="480" alt="image" src="https://github.com/user-attachments/assets/5c68f21c-9332-4fa7-aac3-28e1625ef55b" />
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -439,6 +446,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44d9e165-1e30-4203-8f65-2556bed7ffad" />
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -449,6 +457,9 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/df3d220e-23a2-49f3-a5ec-dbbb7abdaf47" />
+
+
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -457,6 +468,8 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b8459b6a-f0a6-4afa-b707-e6e623d84fdc" />
+
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
