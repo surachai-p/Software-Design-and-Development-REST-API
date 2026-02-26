@@ -392,7 +392,6 @@ npm run dev
    - คลิกที่แท็บ Headers
    - ในช่อง KEY พิมพ์: Content-Type
    - ในช่อง VALUE พิมพ์: application/json
-   - สังเกตว่า Postman จะแสดง Header เป็นสีส้ม แสดงว่าถูกต้อง
 
 4. การตั้งค่า Body:
    - คลิกที่แท็บ "Body"
