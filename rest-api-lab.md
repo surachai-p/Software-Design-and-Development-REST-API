@@ -542,9 +542,10 @@ npm run dev
 ### 2.2 สร้าง Virtual Environment:
 1. พิมพ์คำสั่งสร้าง virtual environment
 ```bash
+python -m venv venv       # กรณี macOS ให้ระบุเป็น python3 -m venv venv
+
 venv\Scripts\activate     # สำหรับ Windows
 # หรือ
-python -m venv venv       # กรณี macOS ให้ระบุเป็น python3 -m venv venv
 source venv/bin/activate  # สำหรับ Linux/macOS
 ```
 
