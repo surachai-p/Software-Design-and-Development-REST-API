@@ -815,3 +815,5 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
 ![alt text](image-16.png)
+
+กดดแฟหแ
