@@ -778,14 +778,14 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - URL: `http://localhost:5000/api/bookings`
    - Method: GET
    - 
-    ### บันทึกผลการทดลอง
+   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](imgex/l2/ex8.png)
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: GET
 
-    ### บันทึกผลการทดลอง
+   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](imgex/l2/ex9-1.png)
   ![แทรกรูปผลการเรียกดูข้อมูล](imgex/l2/ex9-2.png)
    d. อัพเดตข้อมูล (PUT):
@@ -804,12 +804,12 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
        "guests": 3
    }
    ```
-    ### บันทึกผลการทดลอง
+   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](imgex/l2/ex10.png)
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
 
-    ### บันทึกผลการทดลอง
+   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](imgex/l2/ex11.png)
