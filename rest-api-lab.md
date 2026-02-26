@@ -408,6 +408,9 @@ npm run dev
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
 
+  <img width="1477" height="515" alt="image" src="https://github.com/user-attachments/assets/add62f2c-3378-4572-b0e7-e2f4d8cdad3f" />
+
+
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
    - คลิกปุ่ม "Send"
@@ -418,6 +421,9 @@ npm run dev
    ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
+
+  <img width="1533" height="886" alt="image" src="https://github.com/user-attachments/assets/66360c5e-b02c-4625-b732-21987f2fe3bd" />
+
   
 
 2. การสร้าง Request อื่นๆ:
@@ -431,6 +437,9 @@ npm run dev
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
 
+  <img width="1530" height="766" alt="image" src="https://github.com/user-attachments/assets/21ab489a-c096-4d30-b950-a1a71cb7bd56" />
+
+
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
    - เลือก Method: GET
@@ -439,6 +448,11 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+
+<img width="1540" height="954" alt="image" src="https://github.com/user-attachments/assets/1cbfdaf6-e656-43ba-adfe-262af308aac8" />
+
+<img width="1533" height="953" alt="image" src="https://github.com/user-attachments/assets/13d6f0a0-51bc-41cf-b962-d4a652982cca" />
+
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -449,6 +463,8 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  <img width="1919" height="1042" alt="image" src="https://github.com/user-attachments/assets/3362c998-96be-4299-86f2-0d121a1b792e" />
+
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -457,6 +473,8 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+
+<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/e2a080d7-ccad-40da-9ee7-d32a0fac4537" />
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
@@ -742,6 +760,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 ```
 ผลลัพธ์การรัน API Server ด้วย Python
 ![ผลลัพธ์การรัน API Server ด้วย Python](./images/runPythonApp.png)
+
+
 
 เปิด Postman และสร้าง Collection ใหม่ชื่อ "Hotel Booking API - Python"
 
