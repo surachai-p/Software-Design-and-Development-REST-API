@@ -756,6 +756,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 ```
 ผลลัพธ์การรัน API Server ด้วย Python
 ![ผลลัพธ์การรัน API Server ด้วย Python](./images/runPythonApp.png)
+<img width="1910" height="1080" alt="image" src="https://github.com/user-attachments/assets/db54e6e0-0b2d-46a2-8d82-f59f0d64d1d5" />
 
 เปิด Postman และสร้าง Collection ใหม่ชื่อ "Hotel Booking API - Python"
 
@@ -779,6 +780,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fa296bd5-b406-4792-98e7-2ecf959089b5" />
+<img width="1901" height="1049" alt="image" src="https://github.com/user-attachments/assets/f3d99394-c2d7-4cc9-9cfa-464556b48be2" />
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -788,6 +791,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+<img width="1920" height="1074" alt="image" src="https://github.com/user-attachments/assets/6243a086-347f-4b45-bb8b-7fcad5776d77" />
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -795,6 +799,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+<img width="1920" height="1033" alt="image" src="https://github.com/user-attachments/assets/384d1111-7bd1-4188-9f4d-9c044fb23694" />
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -814,6 +819,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    ```
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+<img width="1915" height="1080" alt="image" src="https://github.com/user-attachments/assets/95b6e37d-2a4d-4130-b1c2-629b36e0a87a" />
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -821,3 +827,4 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
 
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+<img width="1919" height="1045" alt="image" src="https://github.com/user-attachments/assets/8cf111ee-9d37-4c99-9c65-f1812c5317f7" />
