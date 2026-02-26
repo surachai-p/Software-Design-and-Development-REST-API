@@ -120,7 +120,13 @@ npm install express sqlite3 cors
 npm install --save-dev nodemon
 ```
 
-3. เปิดไฟล์ package.json และเพิ่มโค้ดตั้งแต่ ,"scripts": {...} ลงไปในไฟล์:
+3. เปิดไฟล์ package.json และเพิ่มโค้ด ในส่วนของ scripts
+   ,"scripts": {
+       ????? โค้ดเดิม ถ้ามีให้คงไว้แบบเดิม
+       "start": "node server.js",
+       "dev": "nodemon server.js"
+   }  เพื่อให้สามารถรัน node js ด้วยคำสั่ง "npm run dev"  
+   **ตัวอย่าง package.json**
 ```json
 {
   "dependencies": {
