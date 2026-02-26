@@ -121,11 +121,12 @@ npm install --save-dev nodemon
 ```
 
 3. เปิดไฟล์ package.json และเพิ่มโค้ด ในส่วนของ scripts
-   ,"scripts": {
-       ????? โค้ดเดิม ถ้ามีให้คงไว้แบบเดิม
+```json   
        "start": "node server.js",
        "dev": "nodemon server.js"
-   }  เพื่อให้สามารถรัน node js ด้วยคำสั่ง "npm run dev"  
+```
+เพื่อให้สามารถรัน node js ด้วยคำสั่ง "npm run dev"
+
    **ตัวอย่าง package.json**
 ```json
 {
@@ -394,7 +395,6 @@ npm run dev
    - คลิกที่แท็บ Headers
    - ในช่อง KEY พิมพ์: Content-Type
    - ในช่อง VALUE พิมพ์: application/json
-   - สังเกตว่า Postman จะแสดง Header เป็นสีส้ม แสดงว่าถูกต้อง
 
 4. การตั้งค่า Body:
    - คลิกที่แท็บ "Body"
@@ -550,9 +550,10 @@ npm run dev
 ### 2.2 สร้าง Virtual Environment:
 1. พิมพ์คำสั่งสร้าง virtual environment
 ```bash
+python -m venv venv       # กรณี macOS ให้ระบุเป็น python3 -m venv venv
+
 venv\Scripts\activate     # สำหรับ Windows
 # หรือ
-python -m venv venv       # กรณี macOS ให้ระบุเป็น python3 -m venv venv
 source venv/bin/activate  # สำหรับ Linux/macOS
 ```
 
