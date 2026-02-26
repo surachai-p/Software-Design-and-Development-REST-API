@@ -245,7 +245,7 @@ app.post('/api/bookings', (req, res) => {
     });
 });
 
-// ดึงข้อมูลการจองทั้งหมด (Read)
+// ดึงข้อมูลการจองทั้งหมด (Rea
 app.get('/api/bookings', (req, res) => {
     const sql = "SELECT * FROM bookings ORDER BY created_at DESC";
     
@@ -258,7 +258,7 @@ app.get('/api/bookings', (req, res) => {
     });
 });
 
-// ดึงข้อมูลการจองตาม ID (Read)
+// ดึงข้อมูลการจองตาม ID (Rea
 app.get('/api/bookings/:id', (req, res) => {
     const sql = "SELECT * FROM bookings WHERE id = ?";
     
@@ -462,7 +462,7 @@ npm run dev
    - เลือก Method: DELETE
    - URL: http://localhost:3000/api/bookings/1
   
-    ### บันทึกผลการทดลอง
+   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](imgex/ex6.png)
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
