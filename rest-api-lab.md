@@ -480,7 +480,7 @@ npm run dev
 
 #### 2. การติดตั้งบน Windows
 1. เปิดไฟล์ที่ดาวน์โหลดมา
-2. ทำเครื่องหมายที่ "Add Python 3.x to PATH" (สำคัญมาก)
+2. **ทำเครื่องหมายที่ "Add Python 3.x to PATH" (สำคัญมาก)**
 3. คลิก "Install Now"
 4. รอการติดตั้งเสร็จสิ้น
 5. คลิก "Close"
@@ -510,7 +510,6 @@ npm run dev
      ```
      แทน [YourUsername] ด้วยชื่อ user ที่เข้าใช้ระบบ Windows
    - คลิก "OK" ทุกหน้าต่าง
-
 
 
 #### 4 การติดตั้งบน macOS
@@ -543,10 +542,10 @@ npm run dev
 ### 2.2 สร้าง Virtual Environment:
 1. พิมพ์คำสั่งสร้าง virtual environment
 ```bash
+venv\Scripts\activate     # สำหรับ Windows
+# หรือ
 python -m venv venv       # กรณี macOS ให้ระบุเป็น python3 -m venv venv
 source venv/bin/activate  # สำหรับ Linux/macOS
-# หรือ
-venv\Scripts\activate     # สำหรับ Windows
 ```
 
 2. ติดตั้ง dependencies:
