@@ -408,6 +408,8 @@ npm run dev
   ### บันทึกผลการทดลอง
   ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
 
+<img width="2229" height="1214" alt="image" src="https://github.com/user-attachments/assets/9260e5cf-7514-4937-b4bb-6fe54be01b1c" />
+
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
    - คลิกปุ่ม "Send"
@@ -418,7 +420,10 @@ npm run dev
    ### บันทึกผลการทดลอง
   ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
-  
+  <img width="2074" height="1169" alt="Screenshot 2026-02-26 095913" src="https://github.com/user-attachments/assets/878764aa-e63d-408d-950f-ecad7140772a" />
+
+  <img width="2226" height="1248" alt="image" src="https://github.com/user-attachments/assets/912946d0-c211-42dd-8f91-1281f4ca1142" />
+
 
 2. การสร้าง Request อื่นๆ:
    ทำตามขั้นตอนต่อไปนี้สำหรับแต่ละ Request:
@@ -430,6 +435,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+<img width="2230" height="1557" alt="image" src="https://github.com/user-attachments/assets/10ebfe8b-3524-45cf-b079-7cb8c5a726f6" />
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -439,6 +445,12 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  <img width="2244" height="1396" alt="image" src="https://github.com/user-attachments/assets/7b27cc8c-db26-4597-bc87-e5160836daa4" />
+  <img width="2232" height="1339" alt="image" src="https://github.com/user-attachments/assets/14c4f30d-de46-4041-a90f-2b60735ae98a" />
+  <img width="2226" height="1339" alt="image" src="https://github.com/user-attachments/assets/95566884-71b0-4cbf-b380-a2fc01c0d2f2" />
+
+
+
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -449,6 +461,7 @@ npm run dev
 
   ### บันทึกผลการทดลอง
   ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+<img width="2242" height="1114" alt="image" src="https://github.com/user-attachments/assets/1c65837e-5874-446a-9efc-cd9b3cb1c358" />
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -457,6 +470,8 @@ npm run dev
   
     ### บันทึกผลการทดลอง
   ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+<img width="2230" height="1176" alt="image" src="https://github.com/user-attachments/assets/940c2dab-6810-4849-bfe2-05f9e7634966" />
+
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
