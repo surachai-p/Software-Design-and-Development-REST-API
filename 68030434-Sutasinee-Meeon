@@ -406,7 +406,8 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  ![แทรกรูปการตั้งค่า Postman](<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/8e35667e-06f1-4846-bb8c-111445e1b8e6" />
+)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -416,7 +417,9 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการเพิ่มข้อมูล](<img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/f0ead496-8adc-4126-952a-218d37d3d5b8" />
+)(<img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/4cb0bee6-2c78-4a24-942a-22ad0606e1bb" />
+)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
@@ -429,7 +432,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](<img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/880ff7e5-2218-464b-935e-aa3d3a86f545" />
+)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -438,7 +442,8 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID]<img width="1920" height="1045" alt="image" src="https://github.com/user-attachments/assets/a0b83338-0c19-4504-a241-da801748d82b" />
+)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -448,7 +453,8 @@ npm run dev
    - แก้ไขข้อมูลบางส่วนใน JSON
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการแก้ไขข้อมูล](<img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/df93c483-9be4-488b-abe8-f9f5e7c0b441" />
+)
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -456,7 +462,7 @@ npm run dev
    - URL: http://localhost:3000/api/bookings/1
   
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการลบข้อมูล]()
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
