@@ -412,7 +412,8 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  ![แทรกรูปการตั้งค่า Postman (headers)](./images/lab1-1%20(header).png)
+  ![แทรกรูปการตั้งค่า Postman (body)](./images/lab1-1%20(body).png)
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -422,7 +423,8 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการเพิ่มข้อมูล 1](./images/lab1-2%20(1).png)
+  ![แทรกรูปผลการเพิ่มข้อมูล 2](./images/lab1-2%20(2).png)
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
@@ -435,7 +437,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](./images/lab1-3%20(1).png)
+  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](./images/lab1-3%20(2).png)
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -444,9 +447,9 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](./images/lab4.png)
 
-   c) Update Booking:
+   c) Update Booking:![alt text](image.png)
    - สร้าง Request ใหม่ชื่อ "Update Booking"
    - เลือก Method: PUT
    - URL: http://localhost:3000/api/bookings/1
@@ -454,7 +457,7 @@ npm run dev
    - แก้ไขข้อมูลบางส่วนใน JSON
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการแก้ไขข้อมูล](./images/lab5.png)
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -462,7 +465,7 @@ npm run dev
    - URL: http://localhost:3000/api/bookings/1
   
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการลบข้อมูล](./images/lab6.png)
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
