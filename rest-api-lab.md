@@ -789,7 +789,7 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
 
 ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูล](imagesep/image10.png)
+  ![แทรกรูปผลการเรียกดูข้อมูล](imagesEP/image10.png)
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -808,12 +808,12 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
 ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](imagesep/image11.png)
+  ![แทรกรูปผลการแก้ไขข้อมูล](imagesEP/image11.png)
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
 
 ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](imagesep/image12.png)
-  ![แทรกรูปผลการลบข้อมูล](imagesep/image13.png)
+  ![แทรกรูปผลการลบข้อมูล](imagesEP/image12.png)
+  ![แทรกรูปผลการลบข้อมูล](imagesEP/image13.png)
   
