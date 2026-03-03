@@ -438,8 +438,7 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
-
+  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](imagesEP/image4.png)
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
    - เลือก Method: GET
@@ -447,7 +446,7 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](imagesEP/image5.png)
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -457,7 +456,8 @@ npm run dev
    - แก้ไขข้อมูลบางส่วนใน JSON
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการแก้ไขข้อมูล](imagesEP/image6.png)
+  
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -465,7 +465,7 @@ npm run dev
    - URL: http://localhost:3000/api/bookings/1
   
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการลบข้อมูล](imagesEP/image7.png)
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
