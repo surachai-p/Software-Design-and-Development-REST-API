@@ -773,23 +773,23 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![แทรกรูปผลการเพิ่มข้อมูล](imagesEP/image8.png) 
 
-    ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
+ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
    b. ดึงข้อมูลทั้งหมด (GET):
    - URL: `http://localhost:5000/api/bookings`
    - Method: GET
-   - 
-    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+   
+### บันทึกผลการทดลอง
+  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](imagesEP/image9.png)
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: GET
 
-    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+### บันทึกผลการทดลอง
+  ![แทรกรูปผลการเรียกดูข้อมูล](imagesep/image10.png)
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -807,12 +807,13 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
        "guests": 3
    }
    ```
-    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
-
+### บันทึกผลการทดลอง
+  ![แทรกรูปผลการแก้ไขข้อมูล](imagesep/image11.png)
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
 
-    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+### บันทึกผลการทดลอง
+  ![แทรกรูปผลการลบข้อมูล](imagesep/image12.png)
+  ![แทรกรูปผลการลบข้อมูล](imagesep/image13.png)
+  
