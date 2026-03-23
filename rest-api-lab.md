@@ -1,4 +1,4 @@
-# การพัฒนา REST API สำหรับระบบจองห้องพัก
+การพัฒนา REST API สำหรับระบบจองห้องพัก
 
 ## ทฤษฎีที่เกี่ยวข้อง
 
@@ -10,6 +10,7 @@ REST (Representational State Transfer) API(Application Programming Interface) �
    - ส่งข้อมูลในรูปแบบ JSON หรือ XML
    - ไม่เก็บสถานะของผู้ใช้ (Stateless)
    - มีโครงสร้าง URL ที่เป็นระเบียบ
+   
 
 2. **HTTP Methods ที่ใช้ใน REST API**
    - GET: ใช้ดึงข้อมูล (Read)
@@ -412,7 +413,10 @@ npm run dev
    - คลิกปุ่ม "Save" ที่มุมขวาบน
      
   ### บันทึกผลการทดลอง
-  ![แทรกรูปการตั้งค่า Postman](path/to/your/image.png)
+  ![![{38009CBF-06EB-47ED-A215-964B99876EF6}](https://github.com/user-attachments/assets/3dfa1ef9-ddcd-4442-b83d-e88b44816379)
+)
+
+]
 
 1. การทดสอบ Request:
    - ตรวจสอบว่า Node.js server กำลังทำงานอยู่
@@ -422,7 +426,9 @@ npm run dev
    - ควรเห็น Status Code 201 Created
   
    ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![![{AE8DF8A3-7116-41CF-87CE-1710DF5E7A1D}](https://github.com/user-attachments/assets/0d6eb331-4ed2-4c37-aa44-c809c24e2902)
+
+
   ทดสอบเพิ่มข้อมูลการจองอีก 2 ครั้ง โดยเปลี่ยนแปลงข้อมูลในการจองเพื่อให้มีความแตกต่างกันในแต่ละครั้ง
   
 
@@ -435,7 +441,10 @@ npm run dev
    - URL: http://localhost:3000/api/bookings
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลทั้งหมด](path/to/your/image.png)
+  ![![{E7C576D6-24B8-4759-8C0A-F4FF3A9EAFE8}](https://github.com/user-attachments/assets/2e5619f6-0e96-4fd5-bc76-09fc93cb969c)
+
+
+
 
    b) Get Booking by ID:
    - สร้าง Request ใหม่ชื่อ "Get Booking by ID"
@@ -444,7 +453,10 @@ npm run dev
    (เปลี่ยนเลข 1 เป็น ID ที่ได้จากการสร้างข้อมูล)
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการ Get ข้อมูลโดยระบุ ID](path/to/your/image.png)
+  ![![image](https://github.com/user-attachments/assets/a9085c20-3d65-417e-9c63-34a5442b0a2e)
+
+
+
 
    c) Update Booking:
    - สร้าง Request ใหม่ชื่อ "Update Booking"
@@ -454,7 +466,8 @@ npm run dev
    - แก้ไขข้อมูลบางส่วนใน JSON
 
   ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![![{C32657E8-0E23-42F1-9F7A-A952D475A001}](https://github.com/user-attachments/assets/90396480-13e9-463a-b90d-9c2a75ed279e)
+
 
    d) Delete Booking:
    - สร้าง Request ใหม่ชื่อ "Delete Booking"
@@ -462,7 +475,8 @@ npm run dev
    - URL: http://localhost:3000/api/bookings/1
   
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![![{071EA277-1F09-49BE-B47E-FF62437B03E2}](https://github.com/user-attachments/assets/e986a123-7d71-45c5-9a21-82733a5ab6b3)
+
 
   ### หยุดการทำงานของ API Server โดยกดปุ่ม Ctrl + c
 
@@ -770,7 +784,8 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเพิ่มข้อมูล](path/to/your/image.png)
+  ![![{046F1FB0-613F-411F-A544-338ABE836494}](https://github.com/user-attachments/assets/25fdeeb0-1880-4066-9e4a-3f8afa00ebb0)
+
 
     ทำการเพิ่มข้อมูลอีกอย่างน้อย 2 ข้อมูล
 
@@ -779,14 +794,16 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    - Method: GET
    - 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูลทั้งหมด](path/to/your/image.png)
+  ![![{C49C2242-0195-4807-BE2C-E61B24B64A83}](https://github.com/user-attachments/assets/12faeafd-9921-4605-b5c1-4fee503423e7)
+
 
    c. ดึงข้อมูลตาม ID (GET):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: GET
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการเรียกดูข้อมูล](path/to/your/image.png)
+  ![![{0179B582-4C5C-43B3-8FD6-74BF4835A5F9}](https://github.com/user-attachments/assets/3a8f4633-7f07-416a-a87a-a53699f187fe)
+
 
    d. อัพเดตข้อมูล (PUT):
    - URL: `http://localhost:5000/api/bookings/1`
@@ -805,11 +822,13 @@ python app.py   # กรณีบน macOS ใช้ python3 app.py
    }
    ```
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการแก้ไขข้อมูล](path/to/your/image.png)
+  ![![{4B51D53D-36E2-4F66-A611-B0CF45ACF173}](https://github.com/user-attachments/assets/05bf2931-36a8-41b6-b1bb-36f5423d9e7f)
+
 
    e. ลบข้อมูล (DELETE):
    - URL: `http://localhost:5000/api/bookings/1`
    - Method: DELETE
 
     ### บันทึกผลการทดลอง
-  ![แทรกรูปผลการลบข้อมูล](path/to/your/image.png)
+  ![![{9D6FB2E2-31B5-423D-8241-C245F65FCA50}](https://github.com/user-attachments/assets/bfadfd7a-32af-4b89-9b24-83377023430d)
+
